@@ -1,6 +1,6 @@
 //
 //  WeatherManager.swift
-//  Clima
+//  Clima - 7879868e8da3f57a5509be6d183667bd
 //
 //  Created by admin on 07/08/23.
 //  Copyright © 2023 App Brewery. All rights reserved.
@@ -15,7 +15,7 @@ protocol WeatherManagerDelegate{
 }
 
 struct WeatherManager {
-    let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=7879868e8da3f57a5509be6d183667bd&units=metric"
+    let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=\(apiKey)&units=metric"
     
     var delegate: WeatherManagerDelegate?
     
